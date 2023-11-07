@@ -14,10 +14,12 @@ function convertUpperCase(arr){
      }
 
      const str2 = A.join(" ");
-    console.log(str2)
+    return str2
 
 
 }
 
 
-convertUpperCase('the quick brown fox')
+let result = convertUpperCase('the quick brown fox')
+
+console.log(result)
